@@ -12,6 +12,7 @@ public class Item : Entity
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
     public DateTime AuctionEnd { get; set; }
+    public string Status { get; set; }
 
     public string City { get; set; }
     public string Neighborhood { get; set; }
